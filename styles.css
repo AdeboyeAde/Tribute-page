@@ -1,0 +1,73 @@
+* {
+    background-color: #eeeeee;
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #333333;
+    padding: 20px 10px;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    /* background-color: blue; */
+}
+
+p {
+    font-size: 16px;
+}
+
+.fig {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+     /* background-color: blue; */
+     text-align: center;
+}
+
+section {
+    text-align: left;
+    padding: 30px;
+    margin: 12px 0;
+    /* background-color: blue; */
+}
+section > li {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18.72px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.list {
+    width: 45%;
+    margin-left: 400px;
+    padding: 20px;
+    /* background-color: blue; */
+}
+
+li {
+    margin: 20px;
+    font-size: 16px;
+}
+
+blockquote {
+    text-align: left;
+    width: 40%;
+    /* background-color: blue; */
+    margin-left: 460px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18.72px;
+}
